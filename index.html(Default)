@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Nova Designs</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <div class = "header">
+    <!-- Logo goes here-->
+    <div class ="logo">
+      </div>
+    <!-- Navigation-->
+      <nav>
+        <div class ="main-menu">
+            <ul>
+             <li><a href="#mission">Mission</a></li>
+             <li><a href="#services">Our Services</a></li>
+              <li><a href="#team">Meet The Team</a></li>
+              <li><a href="#contact">Get In Touch</a></li>
+            </ul>
+        </nav>
+      </div>
+
+      <!-- Mission -->
+<main>
+<div class ="mission"><a name='mission'>
+    <h1>New Nova Designs</h1>
+    <br>
+    <br>
+  <h2>Our Mission</h2>
+  <h4>We bring together the highest calibre of graphic and website designers, as well as web developers, to provide our clients with an all-inclusive, industry-leading service.</h4>
+</a> 
+</div>
+<br>
+<br>
+  <!-- Our Services -->
+  <div class ="images-container">
+  <div class ="services"><a name='services'>
+    <h2>Our Award-Winning Services</h2>
+    <div class ="gallery-services">
+
+      <figure class="photo">
+        <img src="graphic-design.jpg">
+        <figcaption>Graphic Design</figcaption>
+        </figure>
+
+        <figure class="photo">
+        <img src="web-design.jpg">
+        <figcaption>Web Design</figcaption>
+        </figure>
+        <figure class="photo">
+        <img src="web-development.jpg">
+        <figcaption>Web Development</figcaption>
+        </figure>
+
+      </div>
+      </a>
+    </div>
+
+<div class = "team"><a name='team'>
+  <h2>Our Dedicated Team</h2>
+  <div class = "gallery-team">
+      <figure>
+        <img src="carrie.jpg">
+        <figcaption>Carrie Bradshaw, CEO</figcaption>
+        </figure>
+        <figure>
+        <img src="miranda.jpg">
+        <figcaption>Miranda Hobbes, CFO</figcaption>
+        </figure>
+        <figure>
+        <img src="charlotte.jpg" id="director">
+        <figcaption>Charlotte Goldenblatt, Director</figcaption>
+        </figure>
+        <figure>
+        <img src="samantha.jpg">
+        <figcaption>Samantha Jones, Marketing &amp Client Relations</figcaption>
+        </figure>
+        </div>
+        </a>
+      </div>
+      </div>
+      <br>
+      <br>
+
+<footer>
+<div class="contact"><a name="contact">
+<h2>New Nova Designs</h2>
+<h3>contact@newnovadesigns.com</h3>
+<h3>555-821-4745</h3>
+<br>
+<br>
+<h3>Copyright New Nova Designs 2020</h3>
+</a>
+</div>
+</footer>
+</main>
+</body>
+</html>

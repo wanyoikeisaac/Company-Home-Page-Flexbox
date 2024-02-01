@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.header {
+  display: inline-flex;
+  flex-shrink: 0;
+  width: 24rem;
+  height: 18rem;
+  font-size: 15rem;
+  z-index: 1;
+  
+}
+
+.logo {
+    background-image: url(logo.jpg);
+    background-size: 12rem;
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    border: .2rem solid;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: .5rem;
+}
+
+.main-menu {
+    display: inline-block;
+    padding: 2rem;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem; 
+    font-weight: 600;
+}
+
+h3, h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+figcaption {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+body {
+    font-family: 'Montserrat', Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    background-image: url('background_image.jpg')
+}
+
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+}
+
+
+.gallery-services {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.services img {
+    width: 30rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1 0 auto;
+    
+}
+
+.gallery-team {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    flex: 1 0 auto;
+    padding-bottom: 4rem;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.gallery-team img {
+    width: 30rem;
+    height: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1 0 auto;
+}
+
+#director {
+    width: 36rem;
+}
+
+.gallery-services figcaption {
+    font-family: 'Open Sans', Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.gallery-team figcaption {
+    font-family: 'Open Sans', Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+footer, h3 {
+    font-weight: 600;
+}
